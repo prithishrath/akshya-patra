@@ -1,0 +1,498 @@
+html,body{
+    margin: 0px;
+    padding:0px;
+    width:100%;
+}
+
+body{
+    font-family: sans-serif;
+    color: black;
+}
+/* NAV BAR & PHOTO*/
+header{
+    width: 1100px;
+    height: 400px; 
+    background: url(Images/how\ meal\ served\ \(1\).jpg);
+   /* repeat: 50% 50%;*/
+    background-attachment: fixed;
+}
+/* CONTENT SCROLLS UP*/
+.content{
+    width: 70%;
+    margin: 4em auto;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+/* LOGO IN THE NAV BAR */
+.logo{
+    position: fixed;
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin: 16px 36px;
+    background: url(Images/title-new.jpg);
+    /*color: white;
+    font-weight: bold;
+    font-size: 24px;*/
+}
+/* NAV BAR*/
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav ul{
+    list-style: none;
+    background: white;
+    overflow: hidden;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    transition: 1s;
+}
+
+nav.white ul{
+    background: whitesmoke;   
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav :hover{
+    color:red;
+}
+
+
+
+
+/* Role of Elementary Education in the National Development */
+.background{
+        background: rgb(248, 228, 198);
+        width: 96.8%;
+        padding: 20px;
+}
+
+/* BOX OF Co-FOUNDERS*/
+#box{
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(198, 219, 226);
+    padding: 5px;
+}
+.special{
+    background-color: rgb(233, 211, 204);
+    padding: 40px;
+    color: black;
+    border-radius: 5px;
+   
+}
+
+.box2{
+    background-color: rgb(216, 179, 131);
+    padding: 35px;
+    color: black;
+    border-radius: 5px;
+}
+
+#box-2{
+    float: right;
+    margin: 18px;
+    height: 160px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(198, 219, 226);
+    padding: 5px;
+}
+/* COMPARATIVE NO. OF MEALS IMAGE */
+img.center {
+    display:block;
+    margin: 70px auto;
+}
+/* COMPARATIVE NO. OF MEALS IMAGE DESP */
+#figcaption{
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+
+/* CARD FOR INFO */
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(248, 228, 198);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+  /*  box-shadow: 5px 5px 0 0 lightslategrey;*/
+    align-content: space-between;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.covid-1{
+    background-image: url(./Images/covid\ image.png);
+}
+
+.angan-2{
+    background-image: url(./Images/anganwadi\ image.png);
+}
+
+.kit-3{
+    background-image: url(./Images/happiness\ kit.png);
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+   
+}
+.card a:hover{
+    background-color: rgb(136, 38, 38);
+    color: white;
+}
+
+.card:hover{
+    background-color:rgb(199, 159, 98);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03); /* while hovering the card will become bigger*/
+    transition: all 1s ease;
+}
+
+/* OUR STORY */
+.story{
+    background:rgb(211, 168, 116);
+    width: 96.8%;
+    padding: 20px;
+}
+/* card for our story*/
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ourstory{
+    background: rgb(248, 228, 198);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+  /*  box-shadow: 5px 5px 0 0 lightslategrey;*/
+    align-content: space-between;
+}
+
+.ourstory-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.ourstory-1{
+    background-image: url(./Images/our\ story.png);
+}
+
+
+.ourstory h2{
+    padding: 10px;
+}
+
+.ourstory p{
+    padding: 10px;
+}
+.ourstory a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+   
+}
+.ourstory a:hover{
+    background-color: rgb(136, 38, 38);
+    color: white;
+}
+
+.ourstory:hover{
+    background-color:rgb(199, 159, 98);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03); /* while hovering the card will become bigger*/
+    transition: all 1s ease;
+}
+
+
+
+/* Initiatives of Govt of India*/
+.smallbox-1{
+    background: white;
+    width: 96.8%;
+    padding: 20px;
+}
+
+.wrapper-2{
+    display: flex;
+}
+
+.wrapper-2>div{
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    font-weight:300;
+    margin-left: 20px;
+}
+
+.a{
+    background: rgb(248, 228, 198);
+}
+
+/*Concerns of Government Elementary Schools */
+.text-wrapper{
+    background-color: rgb(211, 168, 116);
+    margin: 0px;
+}
+.text-wrapper h1{
+    padding-top: 50px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.text-wrapper p{
+    text-align: left;
+    color: black;
+    font-size: 15px; 
+    font-family:sans-serif;
+    margin-bottom: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+/*Theoretical and Research Base of Low Attendance of Students */
+
+.students{
+    width: 89.3%;
+    margin: 0%;
+}
+
+.students img{
+    width: 112%;
+    height: 20%;
+    
+}
+
+.text-wrapper1{
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+}
+
+.text-wrapper1 h1{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-wrapper1 p{
+    text-align: left;
+    color: black;
+    font-size: 15px; 
+    font-family:sans-serif;
+    margin-bottom: 60px;
+}
+
+/*Details of Questionnaire for Teacher */
+
+.parents{
+    background-color: white;
+   /* padding: 20px;*/
+}
+
+.parents>div{
+  /*  margin-top: 10px;*/
+    font-size: 20px;
+    color: black;
+  /*  margin: .1px; */
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.parents h1{
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+.b{
+    background: rgb(150, 214, 150);
+}
+
+.c{
+    background:rgb(121, 161, 194);
+}
+
+
+/*GRAPHS AND TABLES*/
+
+.graph p{
+    padding: 30px;
+    font-size: 20px;
+}
+
+/* MAJOR*/
+.major{
+    background-color: rgb(67, 134, 67);
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+/* OUR MISSION OUR VISION */
+.smallbox{
+    background-color: rgb(154, 216, 192);
+    width: 96.8%;
+    padding: 20px;
+}
+
+.wrapper-1{
+    display: flex;
+}
+
+.wrapper-1>div{
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    font-weight:300;
+}
+
+.b{
+    background: rgb(68, 152, 209);
+}
+
+
+/*CONTACT US*/
+
+/* Style inputs */
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container1 {
+    border-radius: 5px;
+    background-color: rgb(221, 200, 174);
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
